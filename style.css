@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(abstract-background-connecting-innovation-dots-line-communication-concept_42421-1081.jpg);
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    color: #000000;
+    font-weight: 700;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: rgb(254, 249, 249);
+}
+.left{
+    font-size: 1.5rem;
+}
+.right {
+    display: flex;
+    justify-content: center;
+}
+a{
+    list-style: none; 
+    margin: 0px 23px;
+}
+.firstsection{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 130px 0;
+    }
+    .firstsection > div{
+        width: 40%;
+    }
+    .leftsection{
+        font-size: 2.5rem;
+    
+    }
+    .rightsection img{
+        width: 350px;
+        height: 300px;
+        border-radius: 50%;;
+        
+    }
+    .purple{
+        color: rgb(206, 142, 22);
+    }
+    #occ{
+        font-size: 1.4rem ;
+    }
+    .socialmedia{
+        display: flex;
+        justify-content: space-around;
+        margin-top: 33px;
+        margin-right: 139px;
+        margin-left: -24px;
+    }
+    a{
+        text-decoration: none;
+        color: #000000;
+        cursor: pointer;
+    }
+    a{
+        transition: all 0.3s linear;
+    }
+    a:hover  {
+        transform: scale(1.1);
+    }
+    .fa-instagram{
+        color: #e84399;
+    }
+    .fa-facebook{
+        color: #316FF6;
+    }
+    .fa-square-x-twitter{
+        color: #000000;
+    }
+    .fa-linkedin{
+        color: #0097e6;
+    }
+    .fa-youtube{
+        color: #c00707;
+    }
+    .secondsection{
+        max-width: 80vw;
+        margin: auto;
+    }
+    main hr{
+        border: 0;
+        background-color: #000000;
+        height: 2.5px;
+        margin: 40px 70px;
+    }
